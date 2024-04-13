@@ -6,7 +6,7 @@ import Operacoes
 class Estacionamento:
 
     #Construtor que recebe a lista de catracas e o identificador do estacionamento
-    def __init__(self, catracas, id) -> None:
+    def __init__(self, catracas, id):
         self.catracas = catracas
         self.id = id
 

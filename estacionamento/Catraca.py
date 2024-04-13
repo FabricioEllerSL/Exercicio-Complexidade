@@ -14,8 +14,11 @@ class Catraca:
     def vagas_disponiveis(self):
         return self.qtd_vagas - (self.qtd_entrada - self.qtd_saida)
     
+    def vagas_ocupadas(self):
+        return self.qtd_vagas - self.vagas_disponiveis()
+    
     def __str__(self):
-        return f'Entradas: {self.qtd_entrada}\n Saidas: {self.qtd_saida}\n Vagas disponíveis: {self.vagas_disponiveis()}'
+        return f'Entradas: {self.qtd_entrada}\n Saidas: {self.qtd_saida}\n Vagas disponíveis: {self.vagas_disponiveis()}\n Vagas ocupadas: {self.vagas_ocupadas()}'
     
 
 

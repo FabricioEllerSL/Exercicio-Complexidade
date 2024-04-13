@@ -32,23 +32,26 @@ print('--------------------------ESTACIONAMENTOS--------------------------------
 
 imprimir_objetos(estacionamentos)
 
-print('----------------------------CATRACAS POR ESTACIONAMENTO------------------------------------')
 
 # d.2 imprimindo as catracas dos estacionamentos
 
+print('----------------------------CATRACAS POR ESTACIONAMENTO------------------------------------')
+
 imprimir_leituras(estacionamentos)
 
-print('-------------------------CATRACAS ORDENADAS------------------------------------------------')
 
 
 # d.3 ordenando as catracas em ordem crescente pelos seus valores de vagas disponiveis
 
+print('-------------------------CATRACAS ORDENADAS------------------------------------------------')
+
 ordenar_por_vagas_disponiveis(catracas)
 imprimir_leituras_ordenadas(estacionamentos)
 
-print('---------------------------COMBINÇÕES POSSIVEIS DE CATRACAS-------------------------------------')
 
 # d.4 calcular as combinações possiveis de catracas
+
+print('---------------------------COMBINÇÕES POSSIVEIS DE CATRACAS-------------------------------------')
 
 print(f'É possivel fazer um total de {calcular_combinacoes_catracas(estacionamentos)} combinações coom estas catracas')
 
