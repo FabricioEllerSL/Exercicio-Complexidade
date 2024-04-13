@@ -44,6 +44,7 @@ def imprimir_leituras(objetos):
 
 
 # METODO EXTRA PARA IMPRESSAO DE CATRACAS ORDENADAS
+# Complexidade O(N^3) seguindo a notação Big-O (por ter dois loops e chamar um metodo com complexidade O(N))
 
 def imprimir_leituras_ordenadas(objetos):
     for estacionamento in objetos:
